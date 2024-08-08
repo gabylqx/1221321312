@@ -1,0 +1,88 @@
+{
+	"code": 200,
+	"success": true,
+	"message": "请求成功",
+	"data": [{
+		"id": 1,
+		"metaId": null,
+		"coursewareId": 1,
+		"name": "环节1",
+		"sort": 0,
+		"parentId": 0,
+		"createTime": "2024-03-12",
+		"updateTime": null,
+		"children": [{
+			"id": 2,
+			"metaId": 1,
+			"coursewareId": 1,
+			"name": "元1",
+			"sort": 0,
+			"parentId": 1,
+			"createTime": "2024-03-12",
+			"updateTime": "2024-03-12",
+			"children": [],
+			"hasChildren": false
+		},
+		{
+			"id": 7,
+			"metaId": 2,
+			"coursewareId": 1,
+			"name": "元2",
+			"sort": 1,
+			"parentId": 1,
+			"createTime": "2024-03-12",
+			"updateTime": "2024-03-12",
+			"children": [],
+			"hasChildren": false
+		}],
+		"hasChildren": true
+	},
+	{
+		"id": 4,
+		"metaId": null,
+		"coursewareId": 1,
+		"name": "环节2",
+		"sort": 1,
+		"parentId": 0,
+		"createTime": "2024-03-12",
+		"updateTime": "2024-03-12",
+		"children": [{
+			"id": 5,
+			"metaId": 3,
+			"coursewareId": 1,
+			"name": "元3",
+			"sort": 2,
+			"parentId": 4,
+			"createTime": "2024-03-12",
+			"updateTime": "2024-03-12",
+			"children": [],
+			"hasChildren": false
+		},
+		{
+			"id": 6,
+			"metaId": 4,
+			"coursewareId": 1,
+			"name": "元4",
+			"sort": 3,
+			"parentId": 4,
+			"createTime": "2024-03-12",
+			"updateTime": "2024-03-12",
+			"children": [],
+			"hasChildren": false
+		},
+		{
+			"id": 3,
+			"metaId": 5,
+			"coursewareId": 1,
+			"name": "元5",
+			"sort": 4,
+			"parentId": 4,
+			"createTime": "2024-03-12",
+			"updateTime": "2024-03-12",
+			"children": [],
+			"hasChildren": false
+		}],
+		"hasChildren": true
+	}],
+	"exception": null
+}
